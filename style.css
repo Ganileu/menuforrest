@@ -1,0 +1,49 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.dish-details {
+    text-align: center;
+}
+
+.related-dishes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.related-dishes a {
+    text-decoration: none;
+    color: black;
+}
+
+.related-dishes img {
+    width: 100px;
+    height: 100px;
+}
+
+.back-button {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #ffc64d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #fef3a9;
+}
